@@ -1,0 +1,366 @@
+/* FONTS */
+
+@font-face{
+    font-family: Asap-Bold;
+    src: url("../assets/fonts/Asap_SemiCondensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: Asap-Condensed;
+    src: url("../assets/fonts/Asap_SemiCondensed-Black.ttf");
+}
+
+@font-face {
+    font-family: Asap-Light;
+    src: url("../assets/fonts/Asap_Condensed-Light.ttf");
+}
+
+.body{
+    background-image: url("../assets/images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*ESTILOS INDEX*/
+
+.a{
+    font-variant: small-caps;
+    color: #000080;
+    font-family: Asap-Bold;
+    font-size: 2.5em;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.container{
+    width: 1240px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+.img{
+    width: 120px;
+    height: 120px
+}
+
+.card {
+    width: 100%;
+}
+
+.bloque_h2{
+    font-family: Asap-Bold;
+    font-variant: small-caps;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 5px #000080;
+}
+
+.h3{
+    font-family: Asap-Bold;
+    font-variant: small-caps;
+    font-size: 1.7rem;
+}
+
+.p{
+    font-size: 1.3rem;
+    color: black;
+}
+
+#row{
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgba(209, 209, 209, 0.49);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+/* ESTILOS CARRUSEL */
+
+.div_carousel{
+    width: 1000px;    
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+
+.carousel-caption{
+    background-color:#000080;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h1_carrusel{
+    font-family: Asap-Bold;
+    font-variant: small-caps;
+}
+
+.p_carrusel{
+    font-family: Asap-Bold;
+    font-size: 1.5rem;
+}
+
+.span_carrusel{
+    color: red;
+    font-size: 1.5rem;
+    font-family: Asap-Bold;
+}
+
+.span{
+    color: black;
+    font-size: 1em;
+    font-family: Asap-Bold;
+
+}
+/* ESTILOS LOGIN*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-position: center;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Asap-Bold;
+    font-variant: small-caps;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+svg {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: gray;
+    color: white;
+    text-decoration: underline;
+}
+
+.a{
+    font-size: 1.2rem;
+    color: blue;
+}
+
+/* ESTILOS FORMULARIO REGISTRO */
+.wrapper2 {
+    margin-top: 20px;
+    width: 800px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 0 auto;
+}
+
+.login2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.input-box2 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.separado{
+    margin-left: 200px;
+}
+
+.separado2{
+    margin-left: 270px;
+}
+
+.input2 {
+    width: 48%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+
+/* ESTILOS PAGINA PARKINGS */
+
+.card-title{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.card-text{
+    font-family: Asap-Ligth;
+    font-size: 1.3em;
+}
+
+.list-group-item{
+    font-family: Asap-Ligth;
+    font-size: 1.1em;
+}
+
+#btn_reserva{
+    font-family: Asap-Bold;
+    font-size: 1.5rem;
+}
+
+#btn_servicio{
+    font-family: Asap-Bold;
+    font-size: 1.5rem;
+}
+
+.bloque_h1{
+    font-family: Asap-Bold;
+    font-variant: small-caps;
+    font-size: 6.5em;
+    color: white;
+    text-shadow: 3px 3px 5px #000080;
+    margin-bottom: 20px;
+}
+
+.bloque{
+    padding: 0 15px 20px 15px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/*ESTILOS FORMULARIO RESEÑAS*/
+
+#form_h1{
+    font-family: Asap-Bold;
+    font-variant: small-caps;
+    font-size: 6em;
+    color: white;
+    text-shadow: 2px 2px 5px #000080;
+}
+
+.form{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    background-color: rgba(209, 209, 209, 0.49);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.form-label{
+    font-variant: small-caps;
+    font-size: 1.9em;
+    font-family: Asap-Bold;
+    color: black;
+}
+
+#btn_resena{
+    font-family: Asap-Bold;
+    font-size: 1.3rem;
+}
+
+.form-control{
+    font-family: Asap-Condensed;
+    font-size: 1em;
+}
+
+/* ESTILOS PAGINA VEHICULOS */
+
+#btn_borrar{
+    font-family: Asap-Bold;
+    font-size: 1.2rem;
+}
+
+#btn_vehiculo{
+    font-family: Asap-Bold;
+    font-size: 1.2rem;
+}
+
+/* ESTILOS SERVICIOS CLIENTE */
+#btn_cancelar{
+    font-family: Asap-Bold;
+    font-size: 1rem;
+}
+
+.td{
+    font-family: Asap-Ligth;
+    font-family: 1.2em;
+}
